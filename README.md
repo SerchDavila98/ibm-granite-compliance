@@ -1,69 +1,95 @@
-# Welcome to your Lovable project
+# Compliance Assistant & Risk Analyzer
 
-## Project info
+Welcome to the **Compliance Assistant & Risk Analyzer** project! This repository hosts a full-stack application that provides:
 
-**URL**: https://lovable.dev/projects/b94c84a5-2def-4787-9689-d9fdf9574d94
+- **Interactive Compliance Chat:** Ask questions about your legal documents and receive detailed responses with advanced legal terminology.  
+- **Automated Risk Analysis:** Identify potential risks in your NDAs, contracts, and policies, along with recommended remediation steps.  
+- **Fictitious Legal Excerpts:** Experience simulated legal document quotes and excerpts that mimic real-world legal language.
 
-## How can I edit this code?
+## Prerequisites
 
-There are several ways of editing your application.
+Please ensure you have the following installed on your development machine:
+- [Node.js](https://nodejs.org/en/) (v14 or higher)  
+- [npm](https://www.npmjs.com/)
 
-**Use Lovable**
+## Installation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b94c84a5-2def-4787-9689-d9fdf9574d94) and start prompting.
+1. **Clone the Repository:**
 
-Changes made via Lovable will be committed automatically to this repo.
+    ```
+    git clone https://github.com/yourusername/compliance-assistant.git
+    cd compliance-assistant
+    ```
 
-**Use your preferred IDE**
+2. **Install Dependencies:**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+    ```
+    npm install
+    ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+3. **Start the Development Server:**
 
-Follow these steps:
+    ```
+    npm start
+    ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+   Once the server is running, open [http://localhost:3000](http://localhost:3000) in your browser to access the Compliance Assistant.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Project Structure
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **/src/components** – React components for the Compliance Chat and Risk Analysis interfaces  
+- **/src/hooks** – Custom React hooks used throughout the project  
+- **/src/api** – API routes and handlers for processing analysis requests  
+- **/public** – Public assets and static files
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## Running Tests
+
+To run the project’s tests:
+
+```
+npm test
 ```
 
-**Edit a file directly in GitHub**
+This command executes unit and integration tests, providing results upon completion.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Contributing
 
-**Use GitHub Codespaces**
+We welcome contributions! If you'd like to contribute to this project:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Fork the repository.
+2. Create your feature branch:
 
-## What technologies are used for this project?
+    ```
+    git checkout -b feature/YourFeature
+    ```
 
-This project is built with .
+3. Commit your changes:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+    ```
+    git commit -m "Add some feature"
+    ```
 
-## How can I deploy this project?
+4. Push to the branch:
 
-Simply open [Lovable](https://lovable.dev/projects/b94c84a5-2def-4787-9689-d9fdf9574d94) and click on Share -> Publish.
+    ```
+    git push origin feature/YourFeature
+    ```
 
-## I want to use a custom domain - is that possible?
+5. Open a pull request describing your changes.
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## Troubleshooting
+
+- **Installation Issues:** If you encounter problems during `npm install`, verify that your Node.js and npm versions meet the prerequisites.  
+- **Development Server Not Starting:** Check for error messages in the terminal. If you suspect dependency issues, try removing the `node_modules` folder and reinstalling:
+
+  ```
+  rm -rf node_modules
+  npm install
+  ```
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Thank you for using the **Compliance Assistant & Risk Analyzer**! We hope this tool helps streamline your document review process by providing valuable insights into legal compliance risks.
