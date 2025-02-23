@@ -17,8 +17,8 @@ Please ensure you have the following installed on your development machine:
 1. **Clone the Repository:**
 
     ```
-    git clone https://github.com/yourusername/compliance-assistant.git
-    cd compliance-assistant
+    git clone https://github.com/SerchDavila98/ibm-granite-compliance.git
+    cd ibm-granite-compliance
     ```
 
 2. **Install Dependencies:**
