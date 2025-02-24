@@ -5,6 +5,8 @@ Welcome to the **Compliance Assistant & Risk Analyzer** project! This repository
 - **Interactive Compliance Chat:** Ask questions about your legal documents and receive detailed responses with advanced legal terminology.  
 - **Automated Risk Analysis:** Identify potential risks in your NDAs, contracts, and policies, along with recommended remediation steps.  
 - **Fictitious Legal Excerpts:** Experience simulated legal document quotes and excerpts that mimic real-world legal language.
+  
+https://github.com/user-attachments/assets/8dbcf41a-ab15-4d2a-82c1-28e565593549
 
 ## Prerequisites
 
